@@ -23,5 +23,6 @@ class App < Sinatra::Base
     case params[:operation]
     when "add"
       "#{params[:number1]+params[:number2]}"
+    end
   end
 end
