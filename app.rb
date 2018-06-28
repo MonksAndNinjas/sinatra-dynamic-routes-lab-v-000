@@ -11,6 +11,6 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    puts "#{params[:number].to_i"
+    puts "#{params[:number].to_i}"
   end
 end
