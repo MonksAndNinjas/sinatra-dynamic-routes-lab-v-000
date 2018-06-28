@@ -29,7 +29,7 @@ class App < Sinatra::Base
     when "multiply"
       "#{params[:number1].to_i*params[:number2].to_i}"
     when "divide"
-      "#{params[:number1].to_i/parmas[:number2].to_i}"
+      "#{params[:number1].to_i/params[:number2].to_i}"
     end
   end
 end
